@@ -10,7 +10,7 @@ nav.side .brand img { width:40px; height:40px; border-radius:11px; }
 nav.side a.link { display:block; padding:10px 14px; margin:2px 0; border-radius:12px; color:var(--ink); text-decoration:none; font-weight:600; }
 nav.side a.link:hover { background:var(--tint); }
 nav.side a.link[aria-current="page"] { background:var(--brand); color:var(--on-brand); }
-main { max-width:740px; padding:48px 28px 96px; }
+main { min-width:0; max-width:740px; padding:48px 28px 96px; }
 h1 { font-size:2.1rem; line-height:1.2; margin:0 0 6px; color:var(--brand); }
 h2 { font-size:1.2rem; margin:2rem 0 .4rem; padding-top:1rem; border-top:1px solid var(--line); }
 p, li { margin:.5rem 0; } ul { padding-left:1.2rem; }
