@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charm Privacy Policy</title>
+<style>
+  :root { --bg:#f6f3ec; --ink:#181a1f; --muted:#5f616a; --line:#e7e2d6; --brand:#14213d; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1115; --ink:#f1eee6; --muted:#a0a3ad; --line:#2b2f38; --brand:#e9e5d9; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 20px 80px; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 4px; color:var(--brand); }
+  h2 { font-size:1.2rem; margin:2rem 0 .4rem; padding-top:1rem; border-top:1px solid var(--line); }
+  p, li { margin:.5rem 0; } ul { padding-left:1.2rem; }
+  .meta { color:var(--muted); }
+  a { color:var(--brand); }
+</style>
+</head>
+<body>
+<main>
+<h1>Charm Privacy Policy</h1>
+<p class="meta">Last updated: 7 October 2026 · Publisher: rexthecoder · App: Charm (com.rexthecoder.charm)</p>
+
+<p>Charm is built so that your information stays on your phone.</p>
+
+<h2>What Charm stores</h2>
+<p>Expenses, tasks, habits, notes, settings, game progress and chat history are stored on your device. They are saved as an encrypted vault (AES-256-GCM) with a key derived from your passcode. We cannot read it and cannot recover your passcode.</p>
+
+<h2>What Charm does not do</h2>
+<p>Charm has no accounts and no servers of ours. We do not collect, receive, sell or share your personal data. There are no ads and no analytics or tracking libraries.</p>
+
+<h2>Permissions and why</h2>
+<ul>
+  <li><strong>Notification access (optional, Android):</strong> lets Charm read payment alerts (for example bank or mobile-money notifications) so it can offer them as expenses. Notifications that do not mention an amount of money are discarded immediately. The rest are kept in Charm's private storage on your phone until you review them. They are never uploaded or shared. You can turn this off at any time in Charm's Settings or in Android settings.</li>
+  <li><strong>Usage access (optional, Android):</strong> lets Charm read how much mobile data this phone has used, to warn you about your plan. This stays on the phone.</li>
+  <li><strong>Notifications:</strong> reminders, daily summaries and the focus timer.</li>
+  <li><strong>Biometrics:</strong> to unlock Charm with your fingerprint or face. Charm never sees your biometric data; the phone confirms a match.</li>
+  <li><strong>Internet:</strong> used only for the optional downloads and features below.</li>
+  <li><strong>Run at start-up:</strong> to restore your reminders after the phone restarts.</li>
+</ul>
+
+<h2>Things that use the internet (all optional)</h2>
+<ul>
+  <li><strong>On-device AI model:</strong> if you choose "Smoother answers", Charm downloads a model file (about 470 MB) from a public model host. The model then runs entirely on your phone, and your messages are not sent anywhere. The download request reveals your IP address to that host, as any download does.</li>
+  <li><strong>Claude API key:</strong> if you add your own key in Settings, messages that Chat cannot answer itself are sent to Anthropic to get a reply, under Anthropic's own terms and privacy policy. Your key is stored in the Android Keystore or iOS Keychain. Without a key, nothing is sent.</li>
+  <li><strong>Exported backup:</strong> if you export an encrypted backup file and save it to Drive or elsewhere, that copy is under that service's terms. It is encrypted with a recovery code only you know.</li>
+</ul>
+
+<h2>Backups</h2>
+<p>On Android, Google backup may copy Charm's encrypted vault file to your Google account if you have device backup turned on. It is encrypted, so Google cannot read it. On iPhone, a copy is kept in your Keychain. You can switch these off in your phone's settings.</p>
+
+<h2>Children</h2>
+<p>Charm is not directed at children under 13.</p>
+
+<h2>Your choices</h2>
+<p>Everything lives on your phone: uninstall the app to remove it. Turn the optional permissions off at any time.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, we will update the date above.</p>
+
+<h2>Contact</h2>
+<p>Questions about privacy: open an issue at <a href="https://github.com/rexthecoder/charm-privacy/issues">github.com/rexthecoder/charm-privacy/issues</a>.</p>
+</main>
+</body>
+</html>
