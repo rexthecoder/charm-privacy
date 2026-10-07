@@ -14,7 +14,7 @@ The privacy policy for **Charm**, a pocket app for money, tasks, habits, notes a
 |---|---|
 | `index.html` | The privacy policy, at the site root. **This is the URL given to Google Play and linked from the app's Settings, so keep it where it is.** |
 | `about.html` | An About page describing the app. |
-| `style.css`, `icon.png` | Shared look (light and dark) and the app icon. |
+| `style.css`, `icon.png`, `screenshots/` | Shared look (light and dark), the app icon and the screenshots shown on the About page. |
 | `README.md` | This file. |
 
 ## Updating the policy

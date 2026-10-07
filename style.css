@@ -26,3 +26,6 @@ footer { margin-top:3rem; color:var(--muted); font-size:.9rem; }
   nav.side a.link { padding:8px 12px; }
   main { padding:28px 18px 72px; }
 }
+.shots { display:flex; gap:14px; overflow-x:auto; padding:6px 2px 14px; margin:1.4rem 0 .6rem; scroll-snap-type:x proximity; -webkit-overflow-scrolling:touch; }
+.shots img { height:430px; width:auto; flex:0 0 auto; border-radius:22px; border:1px solid var(--line); scroll-snap-align:start; background:var(--card); }
+@media (max-width:760px) { .shots img { height:380px; } }
