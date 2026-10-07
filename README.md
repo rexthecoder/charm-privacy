@@ -3,7 +3,6 @@
 The privacy policy for **Charm**, a pocket app for money, tasks, habits, notes and a focus timer (Android package `com.rexthecoder.charm`).
 
 **Read it here: https://rexthecoder.github.io/charm-privacy/** 
-About page: https://rexthecoder.github.io/charm-privacy/about.html
 
 ## In short
 - Charm has no accounts and no servers. Your data stays on your phone, in an encrypted vault only your passcode opens.
