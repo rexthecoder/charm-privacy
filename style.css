@@ -1,0 +1,28 @@
+:root { --bg:#f6f3ec; --card:#fff; --ink:#181a1f; --muted:#5f616a; --line:#e7e2d6; --brand:#14213d; --on-brand:#f6f3ec; --tint:#dad6f2; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0f1115; --card:#181b21; --ink:#f1eee6; --muted:#a0a3ad; --line:#2b2f38; --brand:#e9e5d9; --on-brand:#14213d; --tint:#2b2a4b; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+a { color:var(--brand); }
+.layout { display:grid; grid-template-columns:240px 1fr; min-height:100vh; }
+nav.side { position:sticky; top:0; align-self:start; height:100vh; padding:32px 20px; border-right:1px solid var(--line); }
+nav.side .brand { display:flex; align-items:center; gap:12px; font-weight:700; font-size:1.2rem; color:var(--brand); text-decoration:none; margin-bottom:28px; }
+nav.side .brand img { width:40px; height:40px; border-radius:11px; }
+nav.side a.link { display:block; padding:10px 14px; margin:2px 0; border-radius:12px; color:var(--ink); text-decoration:none; font-weight:600; }
+nav.side a.link:hover { background:var(--tint); }
+nav.side a.link[aria-current="page"] { background:var(--brand); color:var(--on-brand); }
+main { max-width:740px; padding:48px 28px 96px; }
+h1 { font-size:2.1rem; line-height:1.2; margin:0 0 6px; color:var(--brand); }
+h2 { font-size:1.2rem; margin:2rem 0 .4rem; padding-top:1rem; border-top:1px solid var(--line); }
+p, li { margin:.5rem 0; } ul { padding-left:1.2rem; }
+.meta, .lead { color:var(--muted); } .lead { font-size:1.15rem; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:12px; margin:1rem 0; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:16px 18px; }
+.card h3 { margin:0 0 4px; font-size:1.05rem; } .card p { margin:0; color:var(--muted); font-size:.95rem; }
+footer { margin-top:3rem; color:var(--muted); font-size:.9rem; }
+@media (max-width:760px) {
+  .layout { grid-template-columns:1fr; }
+  nav.side { position:static; height:auto; display:flex; flex-wrap:wrap; align-items:center; gap:4px; padding:14px 16px; border-right:0; border-bottom:1px solid var(--line); }
+  nav.side .brand { margin:0 auto 0 0; font-size:1.05rem; } nav.side .brand img { width:32px; height:32px; }
+  nav.side a.link { padding:8px 12px; }
+  main { padding:28px 18px 72px; }
+}

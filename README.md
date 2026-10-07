@@ -2,7 +2,7 @@
 
 The privacy policy for **Charm**, a pocket app for money, tasks, habits, notes and a focus timer (Android package `com.rexthecoder.charm`).
 
-**Read it here: https://rexthecoder.github.io/charm-privacy/**
+**Read it here: https://rexthecoder.github.io/charm-privacy/** · About page: https://rexthecoder.github.io/charm-privacy/about.html
 
 ## In short
 - Charm has no accounts and no servers. Your data stays on your phone, in an encrypted vault only your passcode opens.
@@ -12,11 +12,13 @@ The privacy policy for **Charm**, a pocket app for money, tasks, habits, notes a
 ## What is in this repo
 | File | Purpose |
 |---|---|
-| `index.html` | The policy itself, published with GitHub Pages. This is the URL given to Google Play and linked from the app's Settings. |
+| `index.html` | The privacy policy, at the site root. **This is the URL given to Google Play and linked from the app's Settings, so keep it where it is.** |
+| `about.html` | An About page describing the app. |
+| `style.css`, `icon.png` | Shared look (light and dark) and the app icon. |
 | `README.md` | This file. |
 
 ## Updating the policy
-1. Edit `index.html` and change the "Last updated" date at the top.
+1. Edit `index.html` (the policy) and change the "Last updated" date at the top.
 2. Commit and push to `main`. GitHub Pages republishes in about a minute.
 3. If the change alters what the app collects or shares, update the Data safety form in Play Console to match.
 
